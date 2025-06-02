@@ -2,7 +2,7 @@
 .equ '*' 0x2a
 .equ '-0' -48
 .data
-IN_msg: .string "Inserisci la dimension dell lato (0-9): "
+IN_msg: .string "Inserisci la dimensione dell lato (0-9): "
 buffer: .zero 1
 .text
 main:
